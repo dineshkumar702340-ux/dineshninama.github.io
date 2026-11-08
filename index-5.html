@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#101827">
+<title>Dinesh Ninama | Personal Website</title>
+<style>
+:root{--bg:#101827;--panel:#182438;--gold:#f4c56a;--text:#f7f5ef;--muted:#b9c2d0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,"Noto Sans Devanagari",sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+.wrap{width:min(1080px,92%);margin:auto}.nav{display:flex;justify-content:space-between;align-items:center;padding:20px 0;gap:16px}.brand{font-weight:800;letter-spacing:.4px}.brand span{color:var(--gold)}nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-size:14px}
+.hero{padding:82px 0 72px;background:radial-gradient(circle at 80% 20%,#33445e 0,transparent 35%),linear-gradient(135deg,#101827,#1b2b40)}
+.tag{color:var(--gold);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:12px}.hero h1{font-size:clamp(40px,8vw,76px);line-height:1.08;margin:16px 0}.hero h1 span{color:var(--gold)}.hero p{max-width:650px;color:var(--muted);font-size:18px}
+.btn{display:inline-block;margin-top:18px;background:var(--gold);color:#172033;text-decoration:none;font-weight:700;padding:12px 20px;border-radius:999px}
+section{padding:62px 0}.section-title{font-size:30px;margin:0 0 8px}.lead{color:var(--muted);margin:0 0 28px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}.card{background:var(--panel);border:1px solid #2b3a50;border-radius:18px;padding:22px}.card h3{margin:0 0 8px;color:var(--gold)}.card p{color:var(--muted);margin:0}
+.quote{font-size:clamp(22px,4vw,34px);line-height:1.4;border-left:4px solid var(--gold);padding:8px 0 8px 22px;max-width:820px}
+.gallery-box{min-height:150px;border:1px dashed #65738a;border-radius:16px;display:grid;place-items:center;text-align:center;color:var(--muted);padding:20px}
+footer{border-top:1px solid #2b3a50;padding:28px 0;color:var(--muted);font-size:14px}
+@media(max-width:600px){.nav{align-items:flex-start;flex-direction:column}nav a{margin:0 14px 0 0}.hero{padding:58px 0}.hero p{font-size:16px}}
+</style>
+</head>
+<body>
+<header class="wrap nav">
+  <div class="brand">DINESH <span>NINAMA</span></div>
+  <nav><a href="#about">मेरे बारे में</a><a href="#interests">मेरी पसंद</a><a href="#gallery">गैलरी</a><a href="#contact">संपर्क</a></nav>
+</header>
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div class="tag">मेरी पर्सनल वेबसाइट</div>
+      <h1>नमस्ते, मैं हूँ<br><span>Dinesh Ninama</span></h1>
+      <p>यह मेरी छोटी-सी डिजिटल दुनिया है — जहाँ मेरी पहचान, मेरी पसंद और मेरे गाँव की मिट्टी से जुड़ी यादें एक साथ मिलती हैं।</p>
+      <a class="btn" href="#about">मेरे बारे में जानें</a>
+    </div>
+  </section>
+  <section class="wrap" id="about">
+    <h2 class="section-title">मेरे बारे में</h2>
+    <p class="lead">मेरी पहचान, मेरी कहानी।</p>
+    <div class="card">
+      <p>मेरा नाम <strong>Dinesh Ninama</strong> है। मुझे अपनी मिट्टी, अपने गाँव और अपने लोगों से खास लगाव है। यह वेबसाइट मेरे बारे में जानने और मेरी पसंदीदा यादें साझा करने की एक जगह है।</p>
+    </div>
+  </section>
+  <section class="wrap" id="interests">
+    <h2 class="section-title">मेरी पसंद</h2>
+    <p class="lead">वे बातें जो मेरी दुनिया को खास बनाती हैं।</p>
+    <div class="grid">
+      <article class="card"><h3>मेरा गाँव</h3><p>गाँव की मिट्टी, अपनापन और खूबसूरत यादें।</p></article>
+      <article class="card"><h3>फोटो और वीडियो</h3><p>खास पलों को तस्वीरों और वीडियो में सँजोना।</p></article>
+      <article class="card"><h3>नई चीजें सीखना</h3><p>हर दिन कुछ नया सीखना और आगे बढ़ना।</p></article>
+    </div>
+  </section>
+  <section class="wrap" id="gallery">
+    <h2 class="section-title">मेरी गैलरी</h2>
+    <p class="lead">यहाँ आप अपनी पसंदीदा तस्वीरें जोड़ सकते हैं।</p>
+    <div class="gallery-box">अपनी फोटो यहाँ जोड़ें<br><small>फोटो लगाने के लिए HTML में इस बॉक्स को image से बदलें।</small></div>
+  </section>
+  <section class="wrap">
+    <div class="quote">“अपनी मिट्टी और अपने लोगों को कभी मत भूलना — यही हमारी असली पहचान है।”</div>
+  </section>
+  <section class="wrap" id="contact">
+    <h2 class="section-title">संपर्क</h2>
+    <p class="lead">यहाँ अपने सोशल मीडिया या संपर्क लिंक जोड़ें।</p>
+    <div class="card"><p>Instagram: <strong>अपना लिंक यहाँ जोड़ें</strong><br>Email: <strong>अपना ईमेल यहाँ जोड़ें</strong></p></div>
+  </section>
+</main>
+<footer><div class="wrap">© 2026 Dinesh Ninama · मेरी पर्सनल वेबसाइट</div></footer>
+</body>
+</html>
